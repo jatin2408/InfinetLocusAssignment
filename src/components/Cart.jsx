@@ -72,7 +72,7 @@ const Cart = ({ cartData, setCartData, setShowCart }) => {
                             borderRadius: '5px'
                         }} onClick={() => IncreseQuantity(index)}>+</button>
                     </div>
-                    <p>Price: {item.price*item.quantity}</p>
+                    <p>Price: {item.price*item.quantity} ₹</p>
                     <button style={{
                         color: 'white',
                         backgroundColor: 'black',
